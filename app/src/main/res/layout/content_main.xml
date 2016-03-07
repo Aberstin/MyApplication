@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="testsvn.taotao.com.myapplication.MainActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:id="@+id/remote_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="remote_service"/>
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/bind_service"
+            android:text="bind_service"
+        />
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/add_person"
+            android:text="add_person"
+        />
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/list_person"
+            android:text="list_person"
+        />
+    <TextView
+        android:id="@+id/list_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+</LinearLayout>
